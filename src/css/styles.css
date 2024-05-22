@@ -71,7 +71,7 @@ a {
   transition: transform 0.3s linear;
 }
 .navigation__item:hover {
-  transform: scale(1.3) translateY(5px);
+  transform: scale(1.2) translateY(3px);
 }
 .navigation__link {
   color: #FFF;
@@ -1227,15 +1227,15 @@ a {
 }
 @media (max-width: 480px) {
   .carousel-control-prev {
-    left: -13px;
+    left: -15px;
   }
   .carousel-control-next {
-    right: -13px;
+    right: -15px;
   }
   .our__photo-beaches {
     display: block;
-    width: 248px;
-    height: 157px;
+    width: 255px;
+    height: 181px;
     border-radius: 10px;
   }
 }
