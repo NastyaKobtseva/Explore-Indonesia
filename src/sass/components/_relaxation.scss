@@ -3,7 +3,7 @@
 @import "../utils/placeholders";
 
 .relaxation {
-    background-image: url("/src/images/relaxation/photo1-relaxation-bg.png");
+    background-image: url("../images/relaxation/photo1-relaxation-bg.png");
     background-color: $Blue-Background;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .relaxation {
-        background-image: url("/src/images/relaxation/photo1-relaxation-bg2x.png");
+        background-image: url("../images/relaxation/photo1-relaxation-bg2x.png");
     }
 }
 

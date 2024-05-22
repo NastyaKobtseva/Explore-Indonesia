@@ -3,7 +3,7 @@
 @import "../utils/placeholders";
 
 .exude {
-    background-image: url("/src/images/exude/photo2-relaxation-bg.png");
+    background-image: url("../images/exude/photo2-relaxation-bg.png");
     background-color: $Blue-Background;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,7 +80,7 @@
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .exude {
-        background-image: url("/src/images/exude/photo2-relaxation-bg2x.png");
+        background-image: url("../images/exude/photo2-relaxation-bg2x.png");
     }
 }
 

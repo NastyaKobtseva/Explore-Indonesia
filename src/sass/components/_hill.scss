@@ -2,8 +2,7 @@
 @import "../utils/placeholders";
 
 .seen {
-    background-image: url("/src/images/hill/bg1-hill.png"), 
-  url("/src/images/hill/bg2-hill.png");
+    background-image: url("../images/hill/bg1-hill.png"), url("../images/hill/bg2-hill.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top 0 left 0, bottom 0 right 0;
@@ -131,15 +130,13 @@
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .seen {
-        background-image: url("/src/images/hill/bg1-hill2x.png"), 
-      url("/src/images/hill/bg2-hill2x.png");
+        background-image: url("../images/hill/bg1-hill2x.png"), url("../images/hill/bg2-hill2x.png");
     }
 }
 
 @media (max-width: 1200px) {
     .seen {
-        background-image: url("/src/images/hill/bg1-hill.png"), 
-      url("/src/images/hill/bg2-hill.png");
+        background-image: url("../images/hill/bg1-hill.png"), url("../images/hill/bg2-hill.png");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: top 0 left 0, bottom 0 right 0;
@@ -148,8 +145,7 @@
 
 @media (max-width: 768px) {
     .seen {
-        background-image: url("/src/images/hill/bg1-hill.png"), 
-      url("/src/images/hill/bg2-hill.png");
+        background-image: url("../images/hill/bg1-hill.png"), url("../images/hill/bg2-hill.png");
       background-repeat: no-repeat;
       background-size: 1000px, 1200px;
       background-position: top -200px left 0, bottom 0 right 0;
