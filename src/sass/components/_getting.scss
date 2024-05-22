@@ -309,6 +309,9 @@
     .hotel__video {
         padding: 0 0 106px 0;
         flex-direction: column;
+        position: relative;
+        transform: translate(50%, 0);
+        left: -50%;
     }
     .hotel__video-photo {
         width: 314px;
@@ -337,6 +340,7 @@
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         margin: 0;
+        width: 200px;
     }
     .show-more-button {
         display: block;
@@ -361,8 +365,8 @@
         font-size: 15px;
     }
     .hotel__video-photo {
-        width: 276px;
-        height: 182px;
+        width: 314px;
+        height: 208px;
     }
     .hotel__video {
         gap: 40px;
