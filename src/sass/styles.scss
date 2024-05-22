@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1640px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import "./components/header";
+@import "./components/relaxation";
+@import "./components/exude";
+@import "./components/secrets";
+@import "./components/valleys";
+@import "./components/hill";
+@import "./components/country";
+@import "./components/gallery";
+@import "./components/getting";
+@import "./components/getting-modal";
+@import "./components/footer";
+
+@media (max-width: 1800px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 344px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 320px;
+    }
+}

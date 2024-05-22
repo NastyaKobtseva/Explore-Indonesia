@@ -1,0 +1,126 @@
+@import "../utils/variable";
+@import "../utils/placeholders";
+
+.valleys {
+  opacity: 0.9;
+  background: $bg-valleys;
+  padding: 201px 0 224px 0;
+}
+
+.numbers {
+  &__content {
+    text-align: center;
+    flex-direction: column;
+    @include flex-j-content-align($display:flex, $j-content:center, $align:center);
+  }
+  &__title {
+    color: $white-color;
+    font-size: 60px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+    width: 500px;
+  }
+  &__text {
+    color: $valleys-color-grey;
+    font-size: 18px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    padding: 51px 0 63px 0;
+    width: 484px;
+  }
+}
+.amet {
+  @include flex-j-content($display-flex:flex, $js-content:center);
+  gap: 127px;
+}
+.libero {
+  transition: transform 0.3s linear;
+  &:hover {
+    transform: scale(0.98);
+  }
+  &__subtitle {
+    color: $dark-pink-header;
+    text-align: center;
+    font-size: 42.137px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.16px;
+    letter-spacing: 0.386px;
+    margin: 0;
+  }
+  &__text {
+    color: $valleys-color-grey;
+    text-align: center;
+    font-size: 18px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    width: 340.611px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .amet {
+    gap: 74px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .amet {
+    flex-wrap: wrap;
+  }
+  .numbers {
+    &__title {
+      font-size: 55px;
+      width: 314px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .valleys {
+    padding: 100px 0 100px 0;
+  }
+  .numbers {
+    &__title {
+      font-size: 50px;
+      width: 314px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .numbers {
+    &__title {
+      font-size: 40px;
+      width: 296px;
+    }
+    &__text {
+      font-size: 16px;
+      padding: 42px 0 70px 0;
+      width: 314px;
+    }
+  }
+  .amet {
+    gap: 80px;
+  }
+  .libero {
+    gap: 14px;
+    &__subtitle {
+      font-size: 40px;
+    }
+    &__text {
+      font-size: 16px;
+      width: 314px;
+    }
+  }
+}

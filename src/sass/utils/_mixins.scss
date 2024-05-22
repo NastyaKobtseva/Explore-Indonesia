@@ -1,0 +1,15 @@
+@mixin flex-j-content-align($display, $j-content, $align) {
+    display: $display;
+    justify-content: $j-content;
+    align-items: $align;
+}
+
+@mixin flex-align($d-flex, $align-center) {
+    display: $d-flex;
+    align-items: $align-center;
+}
+
+@mixin flex-j-content($display-flex, $js-content) {
+    display: $display-flex;
+    justify-content: $js-content;
+}

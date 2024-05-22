@@ -1,0 +1,115 @@
+@import "../utils/mixins";
+@import "../utils/variable";
+@import "../utils/placeholders";
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &__prev {
+        width: 60px;
+        height: 60px;
+        fill: $fill-modal;
+        border: 2px solid $fill-modal;
+        background-color: transparent;
+        border-radius: 50%;
+        opacity: 0.6;
+        transition: opacity 0.3s linear, transform 0.3s linear;
+        &:hover {
+            opacity: 1;
+            transform: translateX(-5px);
+        }
+    }
+    &__next {
+        width: 60px;
+        height: 60px;
+        fill: $fill-modal;
+        border: 2px solid $fill-modal;
+        background-color: transparent;
+        border-radius: 50%;
+        opacity: 1;
+        transition: opacity 0.3s linear, transform 0.3s linear;
+        &:hover {
+            opacity: 0.6;
+            transform: translateX(5px);
+        }
+    }
+}
+.modal-title {
+    color: $Blue-Background;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.perfect{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+.stay {
+    border: 1px solid $black-color;
+    border-radius: 20px;
+    width: 390px;
+}
+.customer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    &__viezh {
+        display: flex;
+        gap: 20px;
+    }
+    &__text {
+        margin: 0;
+        color: $color-modal-gray;
+        font-size: 14px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.18px;
+    }
+}
+.simply {
+    @include flex-align($d-flex:flex, $align-center:center);
+    gap: 20px;
+    &__info-subtitle {
+        margin: 0;
+        color: $black-color;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 27px;
+    }
+    &__info-text {
+        margin: 0;
+        color: $color-modal-dark-gray;
+        font-size: 13px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 1.18px;
+    }
+}
+.star {
+    @include flex-align($d-flex:flex, $align-center:center);
+    gap: 5px;
+    &__rating {
+        margin: 0;
+        color: $black-color;
+        font-size: 17px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+.arrow {
+    gap: 10px;
+    @include flex-j-content($display-flex:flex, $js-content:end);
+}
+

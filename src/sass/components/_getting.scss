@@ -1,0 +1,370 @@
+@import "../utils/mixins";
+@import "../utils/variable";
+@import "../utils/placeholders";
+
+.getting {
+    margin: 0;
+    padding: 119px 0 117px 0;
+    background: $bg-getting;
+    &__content {
+        display: flex;
+        justify-content: start;
+        align-items: normal;
+        flex-direction: column;
+        gap: 60px;
+        padding-left: 247px;
+        &-title {
+            color: $Blue-Background;
+            font-size: 60px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            text-align: start;
+            margin: 0;
+        }
+    }
+}
+.travelling {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 70px;
+    &__line {
+        width: 2.934px;
+        height: 817.215px;
+        background-color: $Light-Text;
+        opacity: 0.3;
+    }
+}
+.points {
+    @include flex-align($d-flex:flex, $align-center:start);
+    gap: 44px;
+    position: relative;
+    &__circle {
+        width: 58.687px;
+        height: 58.687px;
+        flex-shrink: 0;
+        background-color: $dark-pink-header;
+        border-radius: 50%;
+        color: $white-color;
+        @include flex-j-content-align($display:flex, $j-content:center, $align:center);
+        font-family: "DM Sans";
+        font-size: 26.409px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38.146px;
+    }
+    &__circle-one {
+        position: absolute;
+        left: -100px;
+        z-index: 2;
+    }
+    &__circle-two {
+        position: absolute;
+        left: -100px;
+        z-index: 2;
+    }
+    &__circle-three {
+        position: absolute;
+        left: -129px;
+        z-index: 2;
+    }
+}
+.choose {
+    @include flex-align($d-flex:flex, $align-center:center);
+    flex-direction: column;
+}
+.hotel__one {
+    padding: 0 0 94px 0;
+    text-align: start;
+    @include flex-align($d-flex:flex, $align-center:start);
+    flex-direction: column;
+    &-title {
+        color: $Blue-Background;
+        font-size: 26.409px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41.081px;
+        padding: 0 0 20px 0;
+        margin: 0;
+    }
+    &-text {
+        color: $Light-Text;
+        font-size: 23.475px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38.146px;
+        margin: 0;
+    }
+}
+.hotel__two {
+    padding: 0 0 93.9px 0;
+    text-align: start;
+    @include flex-align($d-flex:flex, $align-center:start);
+    flex-direction: column;
+}
+.hotel__video {
+    @include flex-align($d-flex:flex, $align-center:center);
+    padding: 0 0 63px 0;
+    gap: 45px;
+    &-photo {
+        width: 249.419px;
+        height: 165.79px;
+        border-radius: 7.336px;
+    }
+}
+.flights {
+    text-align: start;
+    @include flex-align($d-flex:flex, $align-center:start);
+    flex-direction: column;
+    &__title {
+        color: $Blue-Background;
+        font-size: 26.409px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41.081px;
+        padding: 0 0 12px 0;
+        margin: 0;
+    }
+    &__text {
+        color: $Light-Text;
+        font-size: 23.475px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38.146px;
+        margin: 0;
+    }
+}
+.hotel__three {
+    padding: 0 0 110px 0;
+    text-align: start;
+    @include flex-align($d-flex:flex, $align-center:start);
+    flex-direction: column;
+    &-button {
+        color: $white-color;
+        text-align: center;
+        font-size: 18px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        margin: 16px 0 0 0;
+        padding: 16px 45px;
+        border-radius: 122px;
+        background: $dark-pink-header;
+        border: none;
+        position: relative;
+        transition: transform 0.3s linear;
+        &:hover {
+            transform: scale(1.1);
+            &::before {
+                opacity: 1;
+            }
+            &::after {
+                background-color: $black-color;
+            }
+        }
+        &::before {
+            content: '';
+            background: linear-gradient(45deg, $color-red-getting, $color-orange-getting, $color-yellow-getting, $color-light-green-getting, $color-turquoise-getting, $color-blue-getting, $color-violet-getting, $color-pink-getting, $color-red-getting);
+            position: absolute;
+            top: -2px;
+            left:-2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 7px);
+            height: calc(100% + 7px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 122px;
+        }
+        &::after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border-radius: 40px;
+            transition: background-color 0.3s ease;
+        }
+    }
+}
+.show-more-button{
+    display: none;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+}
+
+@keyframes glowing {
+    0% { 
+        background-position: 0 0; 
+    }
+    50% { 
+        background-position: 400% 0; 
+    }
+    100% { 
+        background-position: 0 0; 
+    }
+}
+
+@media (max-width: 1800px) {
+    .travelling__line {
+        width: 2.934px;
+        height: 848.215px;
+    }
+    .points__circle-three {
+        left: -99px;
+        top: -10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hotel__one-title {
+        font-size: 24.409px;
+    }
+    .hotel__one-text, .flights__text {
+        font-size: 15.475px;
+        line-height: 31.146px;
+    }
+    .travelling__line {
+        width: 2.934px;
+        height: 769.215px;
+    }
+}
+
+@media (max-width: 992px) {
+    .getting__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 127px;
+        padding-left: 0;
+    }
+    .getting__content-title {
+        text-align: center;
+    }
+    .travelling__line {
+        display: none;
+    }
+    .hotel__one {
+        padding: 0 0 150px 0;
+    }
+    .points__circle-one {
+        left: 0;
+        top: -80px;
+    }
+    .points__circle-two {
+        left: 0;
+        top: -80px;
+    }
+    .hotel__video {
+        padding: 0 0 150px 0;
+    }
+    .points__circle-three {
+        left: 0;
+        top: -80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .getting__content-title {
+        font-size: 40px;
+    }
+    .points__circle-one {
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: -80px;
+    }
+    .points__circle-two {
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: -80px;
+    }
+    .points__circle-three {
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: -80px;
+    }
+    .hotel__one {
+        padding: 0 0 106px 0;
+        align-items: center;
+        text-align: center;
+    }
+    .hotel__two {
+        align-items: center;
+        text-align: center; 
+        padding: 0 0 32px 0;
+    }
+    .hotel__video {
+        padding: 0 0 106px 0;
+        flex-direction: column;
+    }
+    .hotel__video-photo {
+        width: 314px;
+        height: 208px;
+    }
+    .flights {
+        align-items: center;
+        text-align: center; 
+    }
+    .hotel__three {
+        padding: 0 0 0 0;
+        align-items: center;
+        text-align: center;
+    }
+    .hotel__three-button, .flights__title {
+        display: none;
+    }
+    .hotel__one-title {
+        padding: 0 0 10px 0;
+    }
+    .hotel__one-text.collapsed, 
+    .flights__text.collapsed {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        margin: 0;
+    }
+    .show-more-button {
+        display: block;
+        color: $dark-pink-header;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 480px) {
+    .getting {
+        margin: 0;
+        padding: 29px 0 73px 0;
+    }
+    .hotel__one-title {
+        font-size: 22px;
+    }
+    .hotel__one-text, .flights__text {
+        font-size: 15px;
+    }
+    .hotel__video-photo {
+        width: 276px;
+        height: 182px;
+    }
+    .hotel__video {
+        gap: 40px;
+    }
+}

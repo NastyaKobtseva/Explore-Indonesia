@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" id="scroll-arrow">
+        <div class="container header__content">
+            <div class="about">
+                <div class="about__content">
+                    <a href="#" class="logo">
+                        <img class="logo__photo" src="./src/images/header/logo.svg" alt="ups">
+                    </a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    DESTINATIONS
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    EXPERIENCES
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#" class="navigation__link">
+                                    GALLERY
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu-search">
+                    <form class="search">
+                        <div class="search__content">
+                            <svg class="search__svg" xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                <g clip-path="url(#clip0_6_356)">
+                                  <path d="M16.3805 14H15.5905L15.3105 13.73C16.2905 12.59 16.8805 11.11 16.8805 9.5C16.8805 5.91 13.9705 3 10.3805 3C6.79049 3 3.88049 5.91 3.88049 9.5C3.88049 13.09 6.79049 16 10.3805 16C11.9905 16 13.4705 15.41 14.6105 14.43L14.8805 14.71V15.5L19.8805 20.49L21.3705 19L16.3805 14ZM10.3805 14C7.89049 14 5.88049 11.99 5.88049 9.5C5.88049 7.01 7.89049 5 10.3805 5C12.8705 5 14.8805 7.01 14.8805 9.5C14.8805 11.99 12.8705 14 10.3805 14Z" fill="white"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_6_356">
+                                    <rect width="24" height="24" fill="white" transform="translate(0.880493)"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                            <label for="search-term">
+                                <input type="search" id="search-term" name="search" class="search__content-input">            
+                            </label>
+                        </div>
+                    </form>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <svg class="dropbtn__svg" width="27" height="24" viewBox="0 0 27 24" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_6_364)" filter="url(#filter0_d_6_364)">
+                                <path d="M4.91541 18H22.9248V16H4.91541V18ZM4.91541 13H22.9248V11H4.91541V13ZM4.91541 6V8H22.9248V6H4.91541Z" fill="inherit"/>
+                                </g>
+                                <defs>
+                                <filter id="filter0_d_6_364" x="-2.08618" y="-4" width="32.0125" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_364"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6_364" result="shape"/>
+                                </filter>
+                                <clipPath id="clip0_6_364">
+                                <rect width="24.0125" height="24" fill="white" transform="translate(1.91382)"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                        <div class="dropdown__content">
+                            <a class="dropdown__content-link" href="#">
+                                DESTINATIONS
+                            </a>
+                            <a class="dropdown__content-link" href="#">
+                                EXPERIENCES
+                            </a>
+                            <a class="dropdown__content-link" href="#">
+                                ABOUT
+                            </a>
+                            <a class="dropdown__content-link" href="#">
+                                GALLERY
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore">
+                <div class="explore-group d-flex justify-content-start align-item-start">
+                    <div class="explore-group__content">
+                        <div class="explore-group__lines">
+                          <div class="explore-group__top-line"></div>
+                          <div class="explore-group__bottom-line"></div>
+                        </div>
+                        <h4 class="explore-group__content-title">01</h4>
+                    </div>
+                    <div class="explore-group__info d-flex justify-content-start align-item-start">
+                        <h1 class="explore-group__title">explore indonesia</h1>
+                        <a class="explore-group__info-button" href="#">Start travelling</a>
+                    </div>
+                </div>
+                <div class="indonesia">
+                    <div class="indonesia__info">
+                        <h4 class="indonesia__info-text">Fb</h4>
+                        <h4 class="indonesia__info-text">In</h4>
+                        <h4 class="indonesia__info-text">Tw</h4>
+                    </div>
+                    <div class="gradient">
+                        <div class="indonesia__card">
+                            <div class="gradient-card-info">
+                                <h4 class="gradient-card-info__title">
+                                    01
+                                </h4>
+                                <div class="gradient-card-info__texts">
+                                    <h3 class="gradient-card-info__texts-title">
+                                        Title here
+                                    </h3>
+                                    <p class="gradient-card-info__text">
+                                        Lorem ipsum dolor sit <br>
+                                        amet et amet ist ame.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="gradient-card-info">
+                                <h4 class="gradient-card-info__title">
+                                    02
+                                </h4>
+                                <div class="gradient-card-info__texts">
+                                    <h3 class="gradient-card-info__texts-title">
+                                        Title here
+                                    </h3>
+                                    <p class="gradient-card-info__text">
+                                        Lorem ipsum dolor sit <br>
+                                        amet et amet ist ame.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="gradient-card-info">
+                                <h4 class="gradient-card-info__title">
+                                    03
+                                </h4>
+                                <div class="gradient-card-info__texts">
+                                    <h3 class="gradient-card-info__texts-title">
+                                        Title here
+                                    </h3>
+                                    <p class="gradient-card-info__text">
+                                        Lorem ipsum dolor sit <br>
+                                        amet et amet ist ame.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <video src="./src/images/header/video__header.mp4" class="gradient__video" controls poster="./src/images/header/photo_header.jpg"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="relaxation">
+            <div class="container walkways">
+                <img src="./src/images/relaxation/photo1-relaxation.png" srcset="./src/images/relaxation/photo1-relaxation.png 1x, ./src/images/relaxation/photo1-relaxation2x.png 2x" alt="ups" class="walkways__photo">
+                <div class="fusce">
+                    <h3 class="fusce__title">
+                        The walkways of
+                        Indonesia spellbind
+                    </h3>
+                    <p class="fusce__text">
+                        Lorem ipsum dolor sit amet, consectetur adip
+                        iscing elit. Fusce commodo magna et libero
+                        mollis rhoncus. 
+                    </p>
+                    <button class="fusce__button">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="exude">
+            <div class="container beaches">
+                <div class="magna">
+                    <h3 class="magna__title">
+                        Perfect beaches exude
+                        relaxation and fun
+                    </h3>
+                    <p class="magna__text">
+                        Lorem ipsum dolor sit amet, consectetur adip
+                        iscing elit. Fusce commodo magna et libero
+                        mollis rhoncus. 
+                    </p>
+                    <button class="magna__button">
+                        Learn More
+                    </button>
+                </div>
+                <img src="./src/images/exude/photo2-relaxation.png" srcset="./src/images/exude/photo2-relaxation.png 1x, ./src/images/exude/photo2-relaxation2x.png 2x" alt="ups" class="beaches__photo">
+            </div>
+        </section>
+        <section class="secrets">
+            <div class="container secrets__content">
+                <h2 class="secrets__content-title">
+                    Explore Our Secrets
+                </h2>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="our">
+                            <img src="./src/images/secrets/photo1-secrects.png" srcset="./src/images/secrets/photo1-secrects.png 1x, ./src/images/secrets/photo1-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo2-secrects.png" srcset="./src/images/secrets/photo2-secrects.png 1x, ./src/images/secrets/photo2-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo3-secrects.png" srcset="./src/images/secrets/photo3-secrects.png 1x, ./src/images/secrets/photo3-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/secrets__beaches.png" srcset="./src/images/secrets/secrets__beaches.png 1x, ./src/images/secrets/secrets__beaches2x.png 2x" alt="ups" class="our__photo our__photo-beaches">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="our">
+                            <img src="./src/images/secrets/photo1-secrects.png" srcset="./src/images/secrets/photo1-secrects.png 1x, ./src/images/secrets/photo1-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo2-secrects.png" srcset="./src/images/secrets/photo2-secrects.png 1x, ./src/images/secrets/photo2-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo3-secrects.png" srcset="./src/images/secrets/photo3-secrects.png 1x, ./src/images/secrets/photo3-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/secrets__beaches.png" srcset="./src/images/secrets/secrets__beaches.png 1x, ./src/images/secrets/secrets__beaches2x.png 2x" alt="ups" class="our__photo our__photo-beaches">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="our">
+                            <img src="./src/images/secrets/photo1-secrects.png" srcset="./src/images/secrets/photo1-secrects.png 1x, ./src/images/secrets/photo1-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo2-secrects.png" srcset="./src/images/secrets/photo2-secrects.png 1x, ./src/images/secrets/photo2-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo3-secrects.png" srcset="./src/images/secrets/photo3-secrects.png 1x, ./src/images/secrets/photo3-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/secrets__beaches.png" srcset="./src/images/secrets/secrets__beaches.png 1x, ./src/images/secrets/secrets__beaches2x.png 2x" alt="ups" class="our__photo our__photo-beaches">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="our">
+                            <img src="./src/images/secrets/photo1-secrects.png" srcset="./src/images/secrets/photo1-secrects.png 1x, ./src/images/secrets/photo1-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo2-secrects.png" srcset="./src/images/secrets/photo2-secrects.png 1x, ./src/images/secrets/photo2-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo3-secrects.png" srcset="./src/images/secrets/photo3-secrects.png 1x, ./src/images/secrets/photo3-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/secrets__beaches.png" srcset="./src/images/secrets/secrets__beaches.png 1x, ./src/images/secrets/secrets__beaches2x.png 2x" alt="ups" class="our__photo our__photo-beaches">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="our">
+                            <img src="./src/images/secrets/photo1-secrects.png" srcset="./src/images/secrets/photo1-secrects.png 1x, ./src/images/secrets/photo1-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo2-secrects.png" srcset="./src/images/secrets/photo2-secrects.png 1x, ./src/images/secrets/photo2-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/photo3-secrects.png" srcset="./src/images/secrets/photo3-secrects.png 1x, ./src/images/secrets/photo3-secrects2x.png 2x" alt="ups" class="our__photo">
+                            <img src="./src/images/secrets/secrets__beaches.png" srcset="./src/images/secrets/secrets__beaches.png 1x, ./src/images/secrets/secrets__beaches2x.png 2x" alt="ups" class="our__photo our__photo-beaches">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.07336 12.1394L13.5725 19.6386C14.5489 20.6149 14.5489 22.1978 13.5725 23.1741C12.5962 24.1504 11.0133 24.1504 10.037 23.1741L0.732233 13.8693C-0.244078 12.893 -0.244078 11.3101 0.732233 10.3338C0.857529 10.2085 0.992815 10.0993 1.13553 10.0061L10.4094 0.732233C11.3858 -0.244078 12.9687 -0.244078 13.945 0.732233C14.9213 1.70854 14.9213 3.29146 13.945 4.26777L6.07336 12.1394Z" fill="#020B20"/>
+                        </svg>
+                      </span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.60389 12.1394L1.1047 19.6386C0.128388 20.6149 0.128388 22.1978 1.1047 23.1741C2.08101 24.1504 3.66392 24.1504 4.64023 23.1741L13.945 13.8693C14.9213 12.893 14.9213 11.3101 13.945 10.3338C13.8197 10.2085 13.6844 10.0993 13.5417 10.0061L4.2678 0.732233C3.29149 -0.244078 1.70858 -0.244078 0.732269 0.732233C-0.244041 1.70854 -0.244041 3.29146 0.732269 4.26777L8.60389 12.1394Z" fill="#020B20"/>
+                        </svg>
+                      </span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="valleys">
+            <div class="container numbers">
+                <div class="numbers__content">
+                    <h3 class="numbers__title">
+                        By The Numbers
+                    </h3>
+                    <p class="numbers__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Fusce commodo magna et libero.Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="amet">
+                    <div class="libero">
+                        <p class="libero__subtitle">
+                            100+
+                        </p>
+                        <p class="libero__text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Fusce
+                            commodo magna et libero.
+                        </p>
+                    </div>
+                    <div class="libero">
+                        <p class="libero__subtitle">
+                            43,000+
+                        </p>
+                        <p class="libero__text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Fusce commodo.
+                        </p>
+                    </div>
+                    <div class="libero">
+                        <p class="libero__subtitle">
+                            30+
+                        </p>
+                        <p class="libero__text">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit. Fusce 
+                            commodo magna et libero.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hill seen">
+            <div class="container hill__content">
+                <h2 class="hill__content-title">
+                    Our hills and valleys are like
+                    nothing you’ve seen.
+                </h2>
+                <p class="hill__content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Fusce sit amet magna commodo, tempus dolor
+                    sit amet, laoreet elit. Donec mauris tortor.
+                </p>
+                <button class="hill__content-button">
+                    Learn More
+                </button>
+            </div>
+        </section>
+        <section class="country">
+            <div class="container country__content">
+                <div class="life">
+                    <h2 class="life__title">
+                        Live a life like you wouldn’t imagine, experience a
+                        life you wouldn’t expect.
+                    </h2>
+                    <video class="life__video" src="./src/images/country/video-country.mp4" controls="" poster="./src/images/country/video-player-country.png"></video>
+                    <video class="life__video-mobile" src="./src/images/country/photo-video2-country.mp4" controls poster="./src/images/country/country-photo1-mobile.png"></video>
+                </div>
+                <div class="city">
+                    <div class="city__content">
+                        <video class="city__content-photo" src="./src/images/country/photo-video1-country.mp4" controls="" poster="./src/images/country/photo1-country.png"></video>
+                        <video class="city__content-photo-mobile" src="./src/images/country/photo-video1-country.mp4" controls="" poster="./src/images/country/photo1-country-mobile.png"></video>
+                        <div class="imagine">
+                            <p class="imagine__subtitle">
+                                In The Country
+                            </p>
+                            <p class="imagine__text">
+                                Lorem ipsum dolor sit amet, <br>
+                                consectetur adipiscing elit. Phasellus <br>
+                                dapibus mauris in lectus tempus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="city__content">
+                        <video class="city__content-photo" src="./src/images/country/photo-video2-country.mp4" controls="" poster="./src/images/country/photo2-country.png"></video>
+                        <video class="city__content-photo-mobile" src="./src/images/country/photo-video2-country.mp4" controls="" poster="./src/images/country/photo2-country-mobile.png"></video>
+                        <div class="imagine">
+                            <p class="imagine__subtitle">
+                                In The City
+                            </p>
+                            <p class="imagine__text">
+                                Lorem ipsum dolor sit amet, <br>
+                                consectetur adipiscing elit. <br>
+                                Phasellus dapibus mauris in.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container gallery__content">
+                <div class="eget">
+                    <h2 class="eget__title">
+                        Photo Gallery
+                    </h2>
+                    <p class="eget__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+                    </p>
+                </div>
+                <div class="gallery-group">
+                    <img class="gallery-group__big" src="./src/images/gallery/photo1-gallery.png" srcset="./src/images/gallery/photo1-gallery.png 1x, ./src/images/gallery/photo1-gallery2x.png 2x" alt="ups">
+                    <img class="gallery-group__small" src="./src/images/gallery/photo2-gallery.png" srcset="./src/images/gallery/photo2-gallery.png 1x, ./src/images/gallery/photo2-gallery2x.png 2x" alt="ups">
+                    <img class="gallery-group__medium d-lg-none" src="./src/images/gallery/photo5-gallery.png" srcset="./src/images/gallery/photo5-gallery.png 1x, ./src/images/gallery/photo5-gallery2x.png 2x" alt="ups">
+                    <img class="gallery-group__small" src="./src/images/gallery/photo3-gallery.png" srcset="./src/images/gallery/photo3-gallery.png 1x, ./src/images/gallery/photo3-gallery2x.png 2x" alt="ups">
+                    <img class="gallery-group__big" src="./src/images/gallery/photo4-gallery.png" srcset="./src/images/gallery/photo4-gallery.png 1x, ./src/images/gallery/photo4-gallery2x.png 2x" alt="ups">
+                    <img class="gallery-group__medium d-none d-lg-block" src="./src/images/gallery/photo5-gallery.png" srcset="./src/images/gallery/photo5-gallery.png 1x, ./src/images/gallery/photo5-gallery2x.png 2x" alt="ups">
+                    <img class="gallery-group__medium" src="./src/images/gallery/photo6-gallery.png" srcset="./src/images/gallery/photo6-gallery.png 1x, ./src/images/gallery/photo6-gallery2x.png 2x" alt="ups">
+                </div>
+            </div>
+        </section>
+        <section class="getting">
+            <div class="container getting__content">
+                <h2 class="getting__content-title">
+                    Getting there
+                </h2>
+                <div class="travelling">
+                    <div class="travelling__line"></div>
+                    <div class="choose">
+                        <div class="points">
+                            <div class="points__circle points__circle-one">1</div>
+                            <div class="hotel__one">
+                                <h3 class="hotel__one-title">
+                                    Bookings your flights
+                                </h3>
+                                <p class="hotel__one-text collapsed">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                                    tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                                    eros tincidunt, viverra neque auctor, lobortis enim.
+                                </p>
+                                <button class="show-more-button">Show more</button>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="points__circle points__circle-two">2</div>
+                            <div class="experience">
+                                <div class="hotel__two">
+                                    <h3 class="hotel__one-title">
+                                        Choosing your hotel
+                                    </h3>
+                                    <p class="hotel__one-text collapsed">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                                        tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                                        eros tincidunt, viverra neque auctor, lobortis enim.
+                                    </p>
+                                    <button class="show-more-button">Show more</button>
+                                </div>
+                                <div class="hotel__video">
+                                    <video class="hotel__video-photo" src="./src/images/country/photo-video1-country.mp4" controls poster="./src/images/getting/photo-getting.png"></video>
+                                    <div class="flights">
+                                        <h3 class="flights__title">
+                                            Travelling there
+                                        </h3>
+                                        <p class="flights__text collapsed">
+                                            Lorem ipsum dolor sit amet, consectetur <br>
+                                            adipiscing elit. Phasellus dapibus mauris <br>
+                                            in lectus tempus, eget tincidunt.
+                                        </p>
+                                        <button class="show-more-button">Show more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="points__circle points__circle-three">3</div>
+                            <div class="hotel__three">
+                                <h3 class="hotel__one-title">
+                                    Planning your experiences
+                                </h3>
+                                <p class="hotel__one-text collapsed">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
+                                    tempus, eget tincidunt lacus varius. 
+                                </p>
+                                <button class="show-more-button">Show more</button>
+                                <button type="button" class="hotel__three-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Learn More
+                                </button>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h3 class="modal-title fs-5" id="staticBackdropLabel">Reviews</h3>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="perfect">
+                                                <div class="stay">
+                                                    <div class="customer">
+                                                        <div class="customer__viezh">
+                                                            <div class="simply">
+                                                                <img src="./src/images/getting/Viezh-Robert.png" alt="ups" class="simply__photo">
+                                                                <div class="simply__info">
+                                                                    <p class="simply__info-subtitle">
+                                                                        Viezh Robert
+                                                                    </p>
+                                                                    <p class="simply__info-text">
+                                                                        Warsaw, Poland
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star">
+                                                                <p class="star__rating">
+                                                                    4.5
+                                                                </p>
+                                                                <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
+                                                            </div>
+                                                        </div>
+                                                        <p class="curtomer__text">
+                                                            Lorem Ipsum is simply dummy text of the <br>
+                                                            printing and typesetting industry. Lorem Ipsum <br>
+                                                            has been the industry's standard dummy text <br>
+                                                            ever since the 1500s,
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="stay">
+                                                    <div class="customer">
+                                                        <div class="customer__viezh">
+                                                            <div class="simply">
+                                                                <img src="./src/images/getting/Yessica-Christy.png" alt="ups" class="simply__photo">
+                                                                <div class="simply__info">
+                                                                    <p class="simply__info-subtitle">
+                                                                        Yessica Christy
+                                                                    </p>
+                                                                    <p class="simply__info-text">
+                                                                        Shanxi, China
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star">
+                                                                <p class="star__rating">
+                                                                    4.5
+                                                                </p>
+                                                                <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
+                                                            </div>
+                                                        </div>
+                                                        <p class="curtomer__text">
+                                                            Lorem Ipsum is simply dummy text of the <br>
+                                                            printing and
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="stay">
+                                                    <div class="customer">
+                                                        <div class="customer__viezh">
+                                                            <div class="simply">
+                                                                <img src="./src/images/getting/Kim-Young-Jou.png" alt="ups" class="simply__photo">
+                                                                <div class="simply__info">
+                                                                    <p class="simply__info-subtitle">
+                                                                        Kim Young Jou
+                                                                    </p>
+                                                                    <p class="simply__info-text">
+                                                                        Seoul, South Korea
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="star">
+                                                                <p class="star__rating">
+                                                                    4.5
+                                                                </p>
+                                                                <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
+                                                            </div>
+                                                        </div>
+                                                        <p class="customer__text">
+                                                            Lorem Ipsum is simply dummy text of the <br>
+                                                            printing and typesetting industry.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="arrow">
+                                                <button class="modal-body__prev">
+                                                    <span class="modal-body__prev-icon">
+                                                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M23.75 13.75H8.925L13.4625 8.29998C13.6747 8.04471 13.7768 7.71561 13.7463 7.38507C13.7158 7.05454 13.5553 6.74965 13.3 6.53748C13.0447 6.32531 12.7156 6.22323 12.3851 6.2537C12.0546 6.28418 11.7497 6.44471 11.5375 6.69998L5.2875 14.2C5.24545 14.2596 5.20785 14.3223 5.175 14.3875C5.175 14.45 5.175 14.4875 5.0875 14.55C5.03084 14.6933 5.00118 14.8459 5 15C5.00118 15.1541 5.03084 15.3067 5.0875 15.45C5.0875 15.5125 5.0875 15.55 5.175 15.6125C5.20785 15.6777 5.24545 15.7403 5.2875 15.8L11.5375 23.3C11.655 23.4411 11.8022 23.5546 11.9686 23.6323C12.1349 23.7101 12.3164 23.7503 12.5 23.75C12.7921 23.7505 13.0751 23.6488 13.3 23.4625C13.4266 23.3575 13.5312 23.2287 13.6079 23.0832C13.6846 22.9378 13.7318 22.7787 13.7469 22.6149C13.762 22.4512 13.7447 22.2861 13.6959 22.1291C13.6471 21.9721 13.5678 21.8263 13.4625 21.7L8.925 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6494 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z" fill="inherit"/>
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                                <button class="modal-body__next">
+                                                    <span class="modal-body__next-icon">
+                                                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M6.25 13.75H21.075L16.5375 8.29998C16.3253 8.04471 16.2232 7.71561 16.2537 7.38507C16.2842 7.05454 16.4447 6.74965 16.7 6.53748C16.9553 6.32531 17.2844 6.22323 17.6149 6.2537C17.9454 6.28418 18.2503 6.44471 18.4625 6.69998L24.7125 14.2C24.7545 14.2596 24.7922 14.3223 24.825 14.3875C24.825 14.45 24.825 14.4875 24.9125 14.55C24.9692 14.6933 24.9988 14.8459 25 15C24.9988 15.1541 24.9692 15.3067 24.9125 15.45C24.9125 15.5125 24.9125 15.55 24.825 15.6125C24.7922 15.6777 24.7545 15.7403 24.7125 15.8L18.4625 23.3C18.345 23.4411 18.1978 23.5546 18.0314 23.6323C17.8651 23.7101 17.6836 23.7503 17.5 23.75C17.2079 23.7505 16.9249 23.6488 16.7 23.4625C16.5734 23.3575 16.4688 23.2287 16.3921 23.0832C16.3154 22.9378 16.2682 22.7787 16.2531 22.6149C16.238 22.4512 16.2553 22.2861 16.3041 22.1291C16.3529 21.9721 16.4322 21.8263 16.5375 21.7L21.075 16.25H6.25C5.91848 16.25 5.60054 16.1183 5.36612 15.8839C5.13169 15.6494 5 15.3315 5 15C5 14.6685 5.13169 14.3505 5.36612 14.1161C5.60054 13.8817 5.91848 13.75 6.25 13.75Z" fill="inherit"/>
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="pricing">
+                <div class="blog">
+                    <a href="#" class="logos">
+                        <svg class="logos__photo" xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
+                            <g clip-path="url(#clip0_12_354)">
+                            <path d="M38.2494 15.9393V7.97101C38.2494 7.09091 37.5359 6.37735 36.6557 6.37735H35.0621V1.59635C35.0621 0.716248 34.3486 0.00268395 33.4684 0.00268395C31.2122 0.00268395 27.7569 -0.170229 23.7008 2.25971C21.1794 1.5092 19.3962 1.59635 17.5317 1.59635C16.6515 1.59635 15.9381 2.30991 15.9381 3.19002V6.37735H14.3444C13.4642 6.37735 12.7507 7.09091 12.7507 7.97101V15.9393C12.7507 22.4297 17.6259 27.8026 23.9064 28.5893V49.4063C23.9064 50.2864 24.6199 51 25.5001 51C26.3803 51 27.0937 50.2864 27.0937 49.4063V43.8285H29.4842C34.3173 43.8285 38.2494 39.8964 38.2494 35.0633V32.6728C38.2494 31.7927 37.5359 31.0792 36.6557 31.0792H32.6716C30.5545 31.0792 28.6103 31.8337 27.0937 33.0879V28.5885C33.3649 27.8119 38.2494 22.4657 38.2494 15.9393ZM35.0621 15.9393C35.0621 18.7756 33.8077 21.3372 31.8253 23.0935C31.8566 22.8378 31.8747 22.5781 31.8747 22.314C31.8747 18.2781 30.3659 14.5886 27.8838 11.7778C29.9881 10.3419 32.4831 9.56468 35.0621 9.56468V15.9393ZM31.8747 3.19002V6.69887C31.5802 6.75883 31.2878 6.82726 30.9977 6.90366C29.9638 5.74636 28.7847 4.76037 27.4973 3.96364C28.8889 3.45486 30.3661 3.19002 31.8747 3.19002ZM19.1254 4.78368C22.2915 4.78368 25.3662 5.93979 27.7574 8.14871C26.9682 8.55599 26.2115 9.0308 25.4954 9.56916C23.6424 8.1761 21.4773 7.17707 19.1254 6.69777V4.78368ZM15.9381 15.9393V9.56468C22.968 9.56468 28.6874 15.2839 28.6874 22.314C28.6874 24.0949 27.2167 25.5461 25.4163 25.4998C19.8175 25.3616 15.9381 20.9135 15.9381 15.9393ZM32.6716 34.2665H35.0621V35.0633C35.0621 38.1389 32.5599 40.6412 29.4842 40.6412H27.0937V39.8443C27.0937 36.7688 29.596 34.2665 32.6716 34.2665Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_12_354">
+                            <rect width="51" height="51" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="logos__text">
+                            <span class="logos__text-explore">EXPLORE</span><br>
+                            INDONESIA
+                        </p>
+                    </a>
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    About
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Company
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="social">
+                        <ul class="wrapper">
+                            <li class="icon facebook">
+                                <span class="tooltip">Facebook</span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <a target="_blank" href="https://www.facebook.com" class="social__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.457 19V12.25H15.643L16 9.25H13.457V7.789C13.457 7.0165 13.4781 6.25 14.6295 6.25H15.7958V4.105C15.7958 4.07275 14.794 4 13.7805 4C11.664 4 10.3387 5.24275 10.3387 7.525V9.25H8V12.25H10.3387V19H13.457Z" fill="inherit"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icon linkedin">
+                                <span class="tooltip">LinkedIn</span>
+                                <span><i class="fab fa-linkedin"></i></span>
+                                <a target="_blank" href="https://ua.linkedin.com" class="social__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20 19H16.9231V13.3967C16.9231 11.8596 16.2715 11.0022 15.1031 11.0022C13.8315 11.0022 13.0769 11.8956 13.0769 13.3967V19H10V8.59243H13.0769V9.76288C13.0769 9.76288 14.0423 8 16.2177 8C18.3938 8 20 9.3818 20 12.2415C20 15.1004 20 19 20 19ZM5.50031 6C4.67151 6 4 5.32819 4 4.4997C4 3.67181 4.67151 3 5.50031 3C6.32849 3 7 3.67181 7 4.4997C7.00061 5.32819 6.32849 6 5.50031 6ZM4 19H7V9H4V19Z" fill="inherit"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icon google">
+                                <span class="tooltip">Google</span>
+                                <span><i class="fab fa-google"></i></span>
+                                <a target="_blank" href="https://www.google.com.ua/?hl=ru" class="social__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8751 10.6027H12.1479C12.1479 11.3023 12.1479 12.7015 12.1436 13.4011H16.0418C15.8925 14.1007 15.3628 15.0802 14.6145 15.5734C14.6138 15.5727 14.6131 15.5776 14.6116 15.5769C13.6167 16.2338 12.3037 16.3829 11.3288 16.187C9.80069 15.8833 8.59134 14.7752 8.10032 13.3675C8.10317 13.3654 8.10532 13.3459 8.10746 13.3445C7.80012 12.4714 7.80012 11.3023 8.10746 10.6027H8.10675C8.50272 9.31683 9.74851 8.14359 11.2788 7.82247C12.5096 7.56152 13.8983 7.84416 14.9197 8.79982C15.0555 8.6669 16.7995 6.96405 16.9303 6.82553C13.4409 3.66541 7.85373 4.77708 5.7631 8.85789H5.76239C5.76239 8.85789 5.7631 8.85789 5.75882 8.86558C4.72458 10.87 4.76747 13.2318 5.76596 15.1404C5.7631 15.1425 5.76096 15.1438 5.75882 15.1459C6.66368 16.902 8.31045 18.2487 10.2946 18.7615C12.4024 19.3142 15.0848 18.9364 16.8817 17.3112C16.8824 17.3119 16.8831 17.3126 16.8838 17.3133C18.4062 15.9421 19.354 13.6061 18.8751 10.6027Z" fill="inherit"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="company__copyright">
+                        Copyright &copy; 2019
+                    </p>
+                </div>
+            </div>
+            <a href="#scroll-arrow" class="footer__content-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124" fill="none">
+                    <g filter="url(#filter0_d_26_150)">
+                      <circle cx="62" cy="55" r="52" fill="#DD2242"/>
+                    </g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M80.292 60.6276C81.3222 61.6577 81.3222 63.328 80.292 64.3581C79.2618 65.3883 77.5916 65.3883 76.5614 64.3581L62.1386 49.9353L47.5032 64.5707C46.473 65.6008 44.8028 65.6008 43.7726 64.5707C42.7425 63.5405 42.7425 61.8703 43.7726 60.8401L59.6276 44.9852C60.1526 44.4601 60.8439 44.2027 61.532 44.2128C62.4942 43.8006 63.6516 43.9872 64.437 44.7726L80.292 60.6276Z" fill="white"/>
+                    <defs>
+                      <filter id="filter0_d_26_150" x="0" y="0" width="124" height="124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="7"/>
+                        <feGaussianBlur stdDeviation="5"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_26_150"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_26_150" result="shape"/>
+                      </filter>
+                    </defs>
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
