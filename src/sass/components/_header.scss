@@ -742,6 +742,10 @@
         @include flex-align($d-flex:flex, $align-center:center);
         gap: 0px;
     }
+    .dropdown__content {
+        top: 49px;
+        left: -107%;
+    }
 }
 
 @media (max-width: 480px) {

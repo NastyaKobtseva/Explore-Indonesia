@@ -759,6 +759,10 @@ a {
     align-items: center;
     gap: 0px;
   }
+  .dropdown__content {
+    top: 49px;
+    left: -107%;
+  }
 }
 @media (max-width: 480px) {
   .header {
@@ -808,6 +812,16 @@ a {
     gap: 0px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .magna__button, .magna__text, .magna__title, .fusce__button, .fusce__text, .fusce__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .relaxation {
   background-image: url("../images/relaxation/photo1-relaxation-bg.png");
   background-color: #010A20;
@@ -943,6 +957,16 @@ a {
     align-items: center;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .magna__button, .magna__text, .magna__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .exude {
   background-image: url("../images/exude/photo2-relaxation-bg.png");
   background-color: #010A20;
@@ -1075,6 +1099,16 @@ a {
     gap: 24px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .secrets {
   background-image: url("../images/secrets/bg-secrects2x.png");
   background-repeat: no-repeat;
@@ -1219,6 +1253,16 @@ a {
     border-radius: 10px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .valleys {
   opacity: 0.9;
   background: #020c21;
@@ -1328,6 +1372,16 @@ a {
     width: 314px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .seen {
   background-image: url("../images/hill/bg1-hill.png"), url("../images/hill/bg2-hill.png");
   background-repeat: no-repeat;
@@ -1479,6 +1533,16 @@ a {
     font-size: 18px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .country {
   background-image: url("../images/country/bg-country.png");
   background-repeat: no-repeat;
@@ -1646,6 +1710,16 @@ a {
     width: 294px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .gallery {
   margin: 0;
   padding: 177px 0 229px 0;
@@ -1845,6 +1919,16 @@ a {
     width: 100%;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text, .eget__title, .eget__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .getting {
   margin: 0;
   padding: 119px 0 117px 0;
@@ -2194,6 +2278,16 @@ a {
     height: auto;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text, .eget__title, .eget__text, .getting__content-title, .points__circle, .hotel__one-title, .hotel__one-text, .hotel__one-button, .flights__title, .flights__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .modal-body {
   display: flex;
   flex-direction: column;
@@ -2304,6 +2398,17 @@ a {
   display: flex;
   justify-content: end;
 }
+
+.wrapper .tooltip, .company__copyright, .menu__link, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text, .eget__title, .eget__text, .getting__content-title, .points__circle, .hotel__one-title, .hotel__one-text, .hotel__one-button, .flights__title, .flights__text, .modal-title, .customer__text, .simply__info-subtitle, .simply__info-text, .star__rating {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .footer {
   background: #010A20;
   position: relative;
