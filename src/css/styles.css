@@ -25,6 +25,16 @@ a {
   margin: 0 auto;
 }
 
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .magna__button, .magna__text, .magna__title, .fusce__button, .fusce__text, .fusce__title, .gradient-card-info__text, .gradient-card-info__texts-title, .indonesia__info-text, .explore-group__info-button, .explore-group__content-title, .navigation__link {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .gradient-card-info__title, .explore-group__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .header {
   margin: 0;
   background: linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url("../images/header/bg-header.png");
@@ -76,8 +86,6 @@ a {
 .navigation__link {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
@@ -219,8 +227,6 @@ a {
   flex-shrink: 0;
   color: #FFF;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
@@ -233,8 +239,6 @@ a {
 .explore-group__title {
   width: 627.327px;
   color: #FFF;
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 120px;
   font-weight: 900;
   line-height: 130px;
@@ -253,8 +257,6 @@ a {
   background-color: #DD2242;
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 20px;
   font-weight: 700;
   line-height: 150%;
@@ -303,8 +305,6 @@ a {
   transform: rotate(-90deg);
   color: #FFF;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
@@ -354,9 +354,7 @@ a {
 }
 .gradient-card-info__title {
   color: #DD2242;
-  font-family: "Roboto";
   font-size: 16px;
-  font-style: normal;
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
@@ -370,18 +368,14 @@ a {
 }
 .gradient-card-info__texts-title {
   color: #FFF;
-  font-family: "DM Sans";
   font-size: 26.409px;
-  font-style: normal;
   font-weight: 700;
   line-height: 41.081px;
 }
 .gradient-card-info__text {
   color: #939393;
   font-feature-settings: "clig" off, "liga" off;
-  font-family: "DM Sans";
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -814,6 +808,16 @@ a {
     gap: 0px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .magna__button, .magna__text, .magna__title, .fusce__button, .fusce__text, .fusce__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .relaxation {
   background-image: url("../images/relaxation/photo1-relaxation-bg.png");
   background-color: #010A20;
@@ -839,8 +843,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   margin: 0;
@@ -849,8 +851,6 @@ a {
 .fusce__text {
   color: #E0E0E0;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -861,8 +861,6 @@ a {
 .fusce__button {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   border-radius: 32px;
@@ -955,6 +953,16 @@ a {
     align-items: center;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .magna__button, .magna__text, .magna__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .exude {
   background-image: url("../images/exude/photo2-relaxation-bg.png");
   background-color: #010A20;
@@ -980,8 +988,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   margin: 0;
@@ -990,8 +996,6 @@ a {
 .magna__text {
   color: #E0E0E0;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -1002,8 +1006,6 @@ a {
 .magna__button {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   border-radius: 32px;
@@ -1093,6 +1095,16 @@ a {
     gap: 24px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .secrets {
   background-image: url("../images/secrets/bg-secrects2x.png");
   background-repeat: no-repeat;
@@ -1104,8 +1116,6 @@ a {
   color: #010A20;
   text-align: center;
   font-size: 50px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   padding: 127px 0 44px 0;
@@ -1239,6 +1249,16 @@ a {
     border-radius: 10px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .valleys {
   opacity: 0.9;
   background: #020c21;
@@ -1255,8 +1275,6 @@ a {
 .numbers__title {
   color: #FFF;
   font-size: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   margin: 0;
@@ -1265,8 +1283,6 @@ a {
 .numbers__text {
   color: #e0e0e0;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1290,8 +1306,6 @@ a {
   color: #DD2242;
   text-align: center;
   font-size: 42.137px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 49.16px;
   letter-spacing: 0.386px;
@@ -1301,8 +1315,6 @@ a {
   color: #e0e0e0;
   text-align: center;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1356,6 +1368,16 @@ a {
     width: 314px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .seen {
   background-image: url("../images/hill/bg1-hill.png"), url("../images/hill/bg2-hill.png");
   background-repeat: no-repeat;
@@ -1381,7 +1403,7 @@ a {
 .hill:hover::before {
   width: 100%;
 }
-.hill .hill__content-title {
+.hill .hill__content-title, .hill .hill__content-text {
   transition: color 0.3s linear;
 }
 .hill__content {
@@ -1395,8 +1417,6 @@ a {
 .hill__content-title {
   color: #000;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   padding: 0 0 32px 0;
@@ -1406,15 +1426,12 @@ a {
 .hill:hover .hill__content-title {
   position: relative;
   z-index: 1;
-  color: #000;
-  animation: colorChange 20s forwards;
+  color: #FFF;
 }
 .hill__content-text {
   color: #6F7787;
   text-align: center;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1426,7 +1443,7 @@ a {
   position: relative;
   color: #6F7787;
   z-index: 1;
-  animation: colorChange 20s forwards;
+  color: #FFF;
 }
 .hill__content-button {
   padding: 16px 46px;
@@ -1434,8 +1451,6 @@ a {
   background: #DD2242;
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   border: none;
@@ -1464,14 +1479,6 @@ a {
   transform: translateY(0);
 }
 
-@keyframes colorChange {
-  0% {
-    color: #FFF;
-  }
-  50% {
-    color: #FFF;
-  }
-}
 @keyframes btnHill {
   0% {
     transform: translateY(0);
@@ -1522,6 +1529,16 @@ a {
     font-size: 18px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .country {
   background-image: url("../images/country/bg-country.png");
   background-repeat: no-repeat;
@@ -1542,8 +1559,6 @@ a {
   color: #FFF;
   text-align: center;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   padding: 0 0 67px 0;
@@ -1585,8 +1600,6 @@ a {
 .imagine__subtitle {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   padding: 0 0 15px 0;
@@ -1596,8 +1609,6 @@ a {
 .imagine__text {
   color: #FFF;
   font-size: 17px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1695,6 +1706,16 @@ a {
     width: 294px;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .gallery {
   margin: 0;
   padding: 177px 0 229px 0;
@@ -1759,8 +1780,6 @@ a {
 .eget__title {
   color: #010A20;
   font-size: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   text-align: center;
@@ -1770,8 +1789,6 @@ a {
   text-align: center;
   color: #6F7787;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -1898,15 +1915,25 @@ a {
     width: 100%;
   }
 }
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text, .eget__title, .eget__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .getting {
   margin: 0;
   padding: 119px 0 117px 0;
-  background: #DCE8F2;
+  background-color: #DCE8F2;
 }
 .getting__content {
   display: flex;
   justify-content: start;
-  align-items: normal;
+  align-items: start;
   flex-direction: column;
   gap: 60px;
   padding-left: 247px;
@@ -1914,12 +1941,9 @@ a {
 .getting__content-title {
   color: #010A20;
   font-size: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   text-align: start;
-  margin: 0;
 }
 
 .travelling {
@@ -1929,142 +1953,72 @@ a {
   gap: 70px;
 }
 .travelling__line {
+  margin-top: 30px;
   width: 2.934px;
   height: 817.215px;
-  background-color: rgba(21, 20, 57, 0.4);
   opacity: 0.3;
-}
-
-.points {
-  display: flex;
-  align-items: start;
-  gap: 44px;
-  position: relative;
-}
-.points__circle {
-  width: 58.687px;
-  height: 58.687px;
-  flex-shrink: 0;
-  background-color: #DD2242;
-  border-radius: 50%;
-  color: #FFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "DM Sans";
-  font-size: 26.409px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 38.146px;
-}
-.points__circle-one {
-  position: absolute;
-  left: -100px;
-  z-index: 2;
-}
-.points__circle-two {
-  position: absolute;
-  left: -100px;
-  z-index: 2;
-}
-.points__circle-three {
-  position: absolute;
-  left: -129px;
-  z-index: 2;
+  background: rgba(21, 20, 57, 0.4);
 }
 
 .choose {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: start;
   flex-direction: column;
+  gap: 100px;
+}
+
+.points {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.points__box {
+  position: absolute;
+  top: -14px;
+  left: -100px;
+  width: 58.687px;
+  height: 58.687px;
+  background-color: #DD2242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.points__circle {
+  color: #FFF;
+  text-align: center;
+  font-size: 26.409px;
+  font-weight: 500;
+  line-height: 38.146px;
 }
 
 .hotel__one {
-  padding: 0 0 94px 0;
-  text-align: start;
-  display: flex;
-  align-items: start;
   flex-direction: column;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 .hotel__one-title {
   color: #010A20;
   font-size: 26.409px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 41.081px;
-  padding: 0 0 20px 0;
-  margin: 0;
 }
 .hotel__one-text {
   color: rgba(21, 20, 57, 0.4);
   font-size: 23.475px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 38.146px;
-  margin: 0;
+  width: 100%;
 }
-
-.hotel__two {
-  padding: 0 0 93.9px 0;
-  text-align: start;
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-}
-
-.hotel__video {
-  display: flex;
-  align-items: center;
-  padding: 0 0 63px 0;
-  gap: 45px;
-}
-.hotel__video-photo {
-  width: 249.419px;
-  height: 165.79px;
-  border-radius: 7.336px;
-}
-
-.flights {
-  text-align: start;
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-}
-.flights__title {
-  color: #010A20;
-  font-size: 26.409px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  line-height: 41.081px;
-  padding: 0 0 12px 0;
-  margin: 0;
-}
-.flights__text {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 23.475px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38.146px;
-  margin: 0;
-}
-
-.hotel__three {
-  padding: 0 0 110px 0;
-  text-align: start;
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-}
-.hotel__three-button {
+.hotel__one-button {
   color: #FFF;
   text-align: center;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   margin: 16px 0 0 0;
@@ -2075,16 +2029,16 @@ a {
   position: relative;
   transition: transform 0.3s linear;
 }
-.hotel__three-button:hover {
+.hotel__one-button:hover {
   transform: scale(1.1);
 }
-.hotel__three-button:hover::before {
+.hotel__one-button:hover::before {
   opacity: 1;
 }
-.hotel__three-button:hover::after {
+.hotel__one-button:hover::after {
   background-color: #000;
 }
-.hotel__three-button::before {
+.hotel__one-button::before {
   content: "";
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
@@ -2100,7 +2054,7 @@ a {
   transition: opacity 0.3s ease-in-out;
   border-radius: 122px;
 }
-.hotel__three-button::after {
+.hotel__one-button::after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -2112,11 +2066,42 @@ a {
   transition: background-color 0.3s ease;
 }
 
+.hotel__video {
+  margin: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.hotel__video-photo {
+  width: 249.419px;
+  height: 165.79px;
+  border-radius: 7.336px;
+}
+
+.flights {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+.flights__title {
+  color: #010A20;
+  font-size: 26.409px;
+  font-weight: 700;
+  line-height: 41.081px;
+}
+.flights__text {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 23.475px;
+  font-weight: 400;
+  line-height: 38.146px;
+  width: 446.02px;
+}
+
 .show-more-button {
   display: none;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
 }
 
 @keyframes glowing {
@@ -2131,116 +2116,88 @@ a {
   }
 }
 @media (max-width: 1800px) {
-  .travelling__line {
-    width: 2.934px;
-    height: 848.215px;
+  .getting__content {
+    padding-left: 15px;
   }
-  .points__circle-three {
-    left: -99px;
-    top: -10px;
-  }
-}
-@media (max-width: 1200px) {
-  .hotel__one-title {
-    font-size: 24.409px;
-  }
-  .hotel__one-text, .flights__text {
-    font-size: 15.475px;
-    line-height: 31.146px;
+  .travelling {
+    padding-left: 40px;
   }
   .travelling__line {
-    width: 2.934px;
-    height: 769.215px;
+    height: 900px;
+  }
+  .hotel__one-text {
+    width: 800px;
+  }
+  .flights__text {
+    width: 500px;
   }
 }
 @media (max-width: 992px) {
+  .getting {
+    padding: 100px 0 100px 0;
+  }
   .getting__content {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    flex-direction: column;
-    gap: 127px;
-    padding-left: 0;
+    gap: 120px;
   }
   .getting__content-title {
-    text-align: center;
+    font-size: 50px;
+    line-height: 46px;
+  }
+  .travelling {
+    padding: 0;
   }
   .travelling__line {
     display: none;
   }
-  .hotel__one {
-    padding: 0 0 150px 0;
+  .choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
   }
-  .points__circle-one {
-    left: 0;
-    top: -80px;
+  .points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .points__circle-two {
-    left: 0;
-    top: -80px;
-  }
-  .hotel__video {
-    padding: 0 0 150px 0;
-  }
-  .points__circle-three {
-    left: 0;
-    top: -80px;
-  }
-}
-@media (max-width: 768px) {
-  .getting__content-title {
-    font-size: 40px;
-  }
-  .points__circle-one {
+  .points__box {
+    top: -70px;
     left: 50%;
     transform: translate(-50%, 0);
-    top: -80px;
-  }
-  .points__circle-two {
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: -80px;
-  }
-  .points__circle-three {
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: -80px;
   }
   .hotel__one {
-    padding: 0 0 106px 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  .hotel__two {
-    align-items: center;
-    text-align: center;
-    padding: 0 0 32px 0;
-  }
-  .hotel__video {
-    padding: 0 0 106px 0;
-    flex-direction: column;
-    position: relative;
-    transform: translate(50%, 0);
-    left: -50%;
-  }
-  .hotel__video-photo {
-    width: 314px;
-    height: 208px;
-  }
-  .flights {
-    align-items: center;
-    text-align: center;
-  }
-  .hotel__three {
-    padding: 0 0 0 0;
-    align-items: center;
-    text-align: center;
-  }
-  .hotel__three-button, .flights__title {
-    display: none;
+    gap: 0;
   }
   .hotel__one-title {
-    padding: 0 0 10px 0;
+    padding: 0 0 30px 0;
+  }
+  .hotel__one-text {
+    padding: 0 0 15px 0;
+    font-size: 16px;
+    width: 700px;
+  }
+  .hotel__one-button {
+    display: none;
+  }
+  .show-more-button {
+    background: none;
+    border: none;
+    outline: none;
+    color: #DD2242;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
   }
   .hotel__one-text.collapsed,
   .flights__text.collapsed {
@@ -2252,35 +2209,77 @@ a {
     margin: 0;
     width: 200px;
   }
-  .show-more-button {
-    display: block;
-    color: #DD2242;
+  .hotel__video {
+    margin: 32px 0 0 0;
+    gap: 32px;
+    flex-direction: column;
+  }
+  .flights {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flights__text {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    border: none;
-    background-color: transparent;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .getting {
-    margin: 0;
-    padding: 29px 0 73px 0;
+    padding: 30px 0 73px 0;
+  }
+  .getting__content {
+    gap: 127px;
+  }
+  .getting__content-title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .choose {
+    gap: 100px;
+  }
+  .points__box {
+    position: absolute;
+    top: -74px;
+    width: 56px;
+    height: 56px;
   }
   .hotel__one-title {
     font-size: 22px;
+    line-height: 150%;
+    padding: 0 0 18px 0;
   }
-  .hotel__one-text, .flights__text {
-    font-size: 15px;
+  .hotel__one-text {
+    padding: 0 0 5px 0;
+  }
+  .hotel__video {
+    gap: 40px;
   }
   .hotel__video-photo {
     width: 314px;
     height: 208px;
   }
-  .hotel__video {
-    gap: 40px;
+  .flights__title {
+    display: none;
   }
 }
+@media (max-width: 480px) {
+  .hotel__video-photo {
+    width: 100%;
+    height: auto;
+  }
+}
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text, .eget__title, .eget__text, .getting__content-title, .points__circle, .hotel__one-title, .hotel__one-text, .hotel__one-button, .flights__title, .flights__text {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .modal-body {
   display: flex;
   flex-direction: column;
@@ -2317,8 +2316,6 @@ a {
 
 .modal-title {
   color: #010A20;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
 }
@@ -2349,8 +2346,6 @@ a {
   margin: 0;
   color: #757575;
   font-size: 14px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -2364,9 +2359,7 @@ a {
 .simply__info-subtitle {
   margin: 0;
   color: #000;
-  font-family: "DM Sans";
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: 27px;
 }
@@ -2374,8 +2367,6 @@ a {
   margin: 0;
   color: #292929;
   font-size: 13px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 1.18px;
@@ -2390,8 +2381,6 @@ a {
   margin: 0;
   color: #000;
   font-size: 17px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 50px;
 }
@@ -2400,6 +2389,16 @@ a {
   gap: 10px;
   display: flex;
   justify-content: end;
+}
+
+.wrapper .tooltip, .company__copyright, .menu__link, .navigation__link, .explore-group__content-title, .explore-group__info-button, .indonesia__info-text, .gradient-card-info__texts-title, .gradient-card-info__text, .fusce__title, .fusce__text, .fusce__button, .magna__title, .magna__text, .magna__button, .secrets__content-title, .numbers__title, .numbers__text, .libero__subtitle, .libero__text, .hill__content-title, .hill__content-text, .hill__content-button, .life__title, .imagine__subtitle, .imagine__text, .eget__title, .eget__text, .getting__content-title, .points__circle, .hotel__one-title, .hotel__one-text, .hotel__one-button, .flights__title, .flights__text, .modal-title, .customer__text, .simply__info-subtitle, .simply__info-text, .star__rating {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .explore-group__title, .gradient-card-info__title {
+  font-family: "Roboto";
+  font-style: normal;
 }
 
 .footer {
@@ -2438,8 +2437,6 @@ a {
   margin: 0;
   color: #FFF;
   font-size: 23.961px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   line-height: 90.5%;
   letter-spacing: 0.315px;
@@ -2448,8 +2445,6 @@ a {
 .logos__text-explore {
   color: #DD2242;
   font-size: 23.961px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   line-height: 90.5%;
   letter-spacing: 0.315px;
@@ -2473,8 +2468,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -2495,8 +2488,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -2540,8 +2531,6 @@ a {
   top: 0;
   font-size: 14px;
   background: #FFF;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   color: #FFF;
   padding: 5px 8px;

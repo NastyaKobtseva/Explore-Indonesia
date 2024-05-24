@@ -413,193 +413,185 @@
                 </div>
             </div>
         </section>
-        <section class="getting">
+        <section class="getting" id="getting">
             <div class="container getting__content">
-                <h2 class="getting__content-title">
-                    Getting there
-                </h2>
-                <div class="travelling">
-                    <div class="travelling__line"></div>
-                    <div class="choose">
-                        <div class="points">
-                            <div class="points__circle points__circle-one">1</div>
-                            <div class="hotel__one">
-                                <h3 class="hotel__one-title">
-                                    Bookings your flights
-                                </h3>
-                                <p class="hotel__one-text collapsed">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
-                                    tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
-                                    eros tincidunt, viverra neque auctor, lobortis enim.
-                                </p>
-                                <button class="show-more-button">Show more</button>
-                            </div>
-                        </div>
-                        <div class="points">
-                            <div class="points__circle points__circle-two">2</div>
-                            <div class="experience">
-                                <div class="hotel__two">
-                                    <h3 class="hotel__one-title">
-                                        Choosing your hotel
-                                    </h3>
-                                    <p class="hotel__one-text collapsed">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
-                                        tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
-                                        eros tincidunt, viverra neque auctor, lobortis enim.
-                                    </p>
-                                    <button class="show-more-button">Show more</button>
+              <h3 class="getting__content-title">Getting there</h3>
+              <div class="travelling">
+                <div class="travelling__line"></div>
+                <div class="choose">
+                  <div class="points">
+                    <div class="points__box">
+                      <h4 class="points__circle">1</h4>
+                    </div>
+                    <div class="hotel__one">
+                      <h4 class="hotel__one-title">Bookings your flights</h4>
+                      <p class="hotel__one-text collapsed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus 
+                        tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed 
+                        eros tincidunt, viverra neque auctor, lobortis enim.
+                      </p>
+                      <button class="show-more-button d-lg-none d-flex">Show more</button>
+                    </div>
+                  </div>
+                  <div class="points">
+                    <div class="points__box">
+                        <h4 class="points__circle">2</h4>
+                    </div>
+                    <div class="hotel__one">
+                      <h4 class="hotel__one-title">Choosing your hotel</h4>
+                      <p class="hotel__one-text collapsed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus 
+                        tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed 
+                        eros tincidunt, viverra neque auctor, lobortis enim.
+                      </p>
+                      <button class="show-more-button d-lg-none d-flex">Show more</button>
+                    </div>
+                    <div class="hotel__video">
+                      <video class="hotel__video-photo" src="./src/images/country/photo-video2-country.mp4" poster="./src/images/getting/photo-getting.png" controls></video>
+                      <div class="flights">
+                        <h4 class="flights__title">Travelling there</h4>
+                        <p class="flights__text collapsed">
+                          Lorem ipsum dolor sit amet, consectetur 
+                          adipiscing elit. Phasellus dapibus mauris 
+                          in lectus tempus, eget tincidunt.
+                        </p>
+                        <button class="show-more-button d-lg-none d-flex">Show more</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="points">
+                    <div class="points__box">
+                        <h4 class="points__circle">3</h4>
+                    </div>
+                    <div class="hotel__one">
+                      <h4 class="hotel__one-title">Planning your experiences</h4>
+                      <p class="hotel__one-text collapsed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus 
+                        tempus, eget tincidunt lacus varius. 
+                      </p>
+                      <button class="show-more-button d-lg-none d-flex">Show more</button>
+                    </div>
+                    <button type="button" class="hotel__one-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Learn More</button>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h3 class="modal-title fs-5" id="staticBackdropLabel">Reviews</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="hotel__video">
-                                    <video class="hotel__video-photo" src="./src/images/country/photo-video1-country.mp4" controls poster="./src/images/getting/photo-getting.png"></video>
-                                    <div class="flights">
-                                        <h3 class="flights__title">
-                                            Travelling there
-                                        </h3>
-                                        <p class="flights__text collapsed">
-                                            Lorem ipsum dolor sit amet, consectetur <br>
-                                            adipiscing elit. Phasellus dapibus mauris <br>
-                                            in lectus tempus, eget tincidunt.
-                                        </p>
-                                        <button class="show-more-button">Show more</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="points">
-                            <div class="points__circle points__circle-three">3</div>
-                            <div class="hotel__three">
-                                <h3 class="hotel__one-title">
-                                    Planning your experiences
-                                </h3>
-                                <p class="hotel__one-text collapsed">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus
-                                    tempus, eget tincidunt lacus varius. 
-                                </p>
-                                <button class="show-more-button">Show more</button>
-                                <button type="button" class="hotel__three-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    Learn More
-                                </button>
-                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h3 class="modal-title fs-5" id="staticBackdropLabel">Reviews</h3>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="perfect">
-                                                <div class="stay">
-                                                    <div class="customer">
-                                                        <div class="customer__viezh">
-                                                            <div class="simply">
-                                                                <img src="./src/images/getting/Viezh-Robert.png" alt="ups" class="simply__photo">
-                                                                <div class="simply__info">
-                                                                    <p class="simply__info-subtitle">
-                                                                        Viezh Robert
-                                                                    </p>
-                                                                    <p class="simply__info-text">
-                                                                        Warsaw, Poland
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="star">
-                                                                <p class="star__rating">
-                                                                    4.5
-                                                                </p>
-                                                                <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
-                                                            </div>
+                                <div class="modal-body">
+                                    <div class="perfect">
+                                        <div class="stay">
+                                            <div class="customer">
+                                                <div class="customer__viezh">
+                                                    <div class="simply">
+                                                        <img src="./src/images/getting/Viezh-Robert.png" alt="ups" class="simply__photo">
+                                                        <div class="simply__info">
+                                                            <p class="simply__info-subtitle">
+                                                                Viezh Robert
+                                                            </p>
+                                                            <p class="simply__info-text">
+                                                                Warsaw, Poland
+                                                            </p>
                                                         </div>
-                                                        <p class="curtomer__text">
-                                                            Lorem Ipsum is simply dummy text of the <br>
-                                                            printing and typesetting industry. Lorem Ipsum <br>
-                                                            has been the industry's standard dummy text <br>
-                                                            ever since the 1500s,
+                                                    </div>
+                                                    <div class="star">
+                                                        <p class="star__rating">
+                                                            4.5
                                                         </p>
+                                                        <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
                                                     </div>
                                                 </div>
-                                                <div class="stay">
-                                                    <div class="customer">
-                                                        <div class="customer__viezh">
-                                                            <div class="simply">
-                                                                <img src="./src/images/getting/Yessica-Christy.png" alt="ups" class="simply__photo">
-                                                                <div class="simply__info">
-                                                                    <p class="simply__info-subtitle">
-                                                                        Yessica Christy
-                                                                    </p>
-                                                                    <p class="simply__info-text">
-                                                                        Shanxi, China
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="star">
-                                                                <p class="star__rating">
-                                                                    4.5
-                                                                </p>
-                                                                <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
-                                                            </div>
-                                                        </div>
-                                                        <p class="curtomer__text">
-                                                            Lorem Ipsum is simply dummy text of the <br>
-                                                            printing and
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="stay">
-                                                    <div class="customer">
-                                                        <div class="customer__viezh">
-                                                            <div class="simply">
-                                                                <img src="./src/images/getting/Kim-Young-Jou.png" alt="ups" class="simply__photo">
-                                                                <div class="simply__info">
-                                                                    <p class="simply__info-subtitle">
-                                                                        Kim Young Jou
-                                                                    </p>
-                                                                    <p class="simply__info-text">
-                                                                        Seoul, South Korea
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="star">
-                                                                <p class="star__rating">
-                                                                    4.5
-                                                                </p>
-                                                                <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
-                                                            </div>
-                                                        </div>
-                                                        <p class="customer__text">
-                                                            Lorem Ipsum is simply dummy text of the <br>
-                                                            printing and typesetting industry.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="arrow">
-                                                <button class="modal-body__prev">
-                                                    <span class="modal-body__prev-icon">
-                                                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M23.75 13.75H8.925L13.4625 8.29998C13.6747 8.04471 13.7768 7.71561 13.7463 7.38507C13.7158 7.05454 13.5553 6.74965 13.3 6.53748C13.0447 6.32531 12.7156 6.22323 12.3851 6.2537C12.0546 6.28418 11.7497 6.44471 11.5375 6.69998L5.2875 14.2C5.24545 14.2596 5.20785 14.3223 5.175 14.3875C5.175 14.45 5.175 14.4875 5.0875 14.55C5.03084 14.6933 5.00118 14.8459 5 15C5.00118 15.1541 5.03084 15.3067 5.0875 15.45C5.0875 15.5125 5.0875 15.55 5.175 15.6125C5.20785 15.6777 5.24545 15.7403 5.2875 15.8L11.5375 23.3C11.655 23.4411 11.8022 23.5546 11.9686 23.6323C12.1349 23.7101 12.3164 23.7503 12.5 23.75C12.7921 23.7505 13.0751 23.6488 13.3 23.4625C13.4266 23.3575 13.5312 23.2287 13.6079 23.0832C13.6846 22.9378 13.7318 22.7787 13.7469 22.6149C13.762 22.4512 13.7447 22.2861 13.6959 22.1291C13.6471 21.9721 13.5678 21.8263 13.4625 21.7L8.925 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6494 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z" fill="inherit"/>
-                                                        </svg>
-                                                    </span>
-                                                </button>
-                                                <button class="modal-body__next">
-                                                    <span class="modal-body__next-icon">
-                                                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M6.25 13.75H21.075L16.5375 8.29998C16.3253 8.04471 16.2232 7.71561 16.2537 7.38507C16.2842 7.05454 16.4447 6.74965 16.7 6.53748C16.9553 6.32531 17.2844 6.22323 17.6149 6.2537C17.9454 6.28418 18.2503 6.44471 18.4625 6.69998L24.7125 14.2C24.7545 14.2596 24.7922 14.3223 24.825 14.3875C24.825 14.45 24.825 14.4875 24.9125 14.55C24.9692 14.6933 24.9988 14.8459 25 15C24.9988 15.1541 24.9692 15.3067 24.9125 15.45C24.9125 15.5125 24.9125 15.55 24.825 15.6125C24.7922 15.6777 24.7545 15.7403 24.7125 15.8L18.4625 23.3C18.345 23.4411 18.1978 23.5546 18.0314 23.6323C17.8651 23.7101 17.6836 23.7503 17.5 23.75C17.2079 23.7505 16.9249 23.6488 16.7 23.4625C16.5734 23.3575 16.4688 23.2287 16.3921 23.0832C16.3154 22.9378 16.2682 22.7787 16.2531 22.6149C16.238 22.4512 16.2553 22.2861 16.3041 22.1291C16.3529 21.9721 16.4322 21.8263 16.5375 21.7L21.075 16.25H6.25C5.91848 16.25 5.60054 16.1183 5.36612 15.8839C5.13169 15.6494 5 15.3315 5 15C5 14.6685 5.13169 14.3505 5.36612 14.1161C5.60054 13.8817 5.91848 13.75 6.25 13.75Z" fill="inherit"/>
-                                                        </svg>
-                                                    </span>
-                                                </button>
+                                                <p class="curtomer__text">
+                                                    Lorem Ipsum is simply dummy text of the <br>
+                                                    printing and typesetting industry. Lorem Ipsum <br>
+                                                    has been the industry's standard dummy text <br>
+                                                    ever since the 1500s,
+                                                </p>
                                             </div>
                                         </div>
-                                        <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Understood</button>
+                                        <div class="stay">
+                                            <div class="customer">
+                                                <div class="customer__viezh">
+                                                    <div class="simply">
+                                                        <img src="./src/images/getting/Yessica-Christy.png" alt="ups" class="simply__photo">
+                                                        <div class="simply__info">
+                                                            <p class="simply__info-subtitle">
+                                                                Yessica Christy
+                                                            </p>
+                                                            <p class="simply__info-text">
+                                                                Shanxi, China
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="star">
+                                                        <p class="star__rating">
+                                                            4.5
+                                                        </p>
+                                                        <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
+                                                    </div>
+                                                </div>
+                                                <p class="curtomer__text">
+                                                    Lorem Ipsum is simply dummy text of the <br>
+                                                    printing and
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="stay">
+                                            <div class="customer">
+                                                <div class="customer__viezh">
+                                                    <div class="simply">
+                                                        <img src="./src/images/getting/Kim-Young-Jou.png" alt="ups" class="simply__photo">
+                                                        <div class="simply__info">
+                                                            <p class="simply__info-subtitle">
+                                                                Kim Young Jou
+                                                            </p>
+                                                            <p class="simply__info-text">
+                                                                Seoul, South Korea
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="star">
+                                                        <p class="star__rating">
+                                                            4.5
+                                                        </p>
+                                                        <img src="./src/images/getting/star.svg" alt="ups" class="star__svg">
+                                                    </div>
+                                                </div>
+                                                <p class="customer__text">
+                                                    Lorem Ipsum is simply dummy text of the <br>
+                                                    printing and typesetting industry.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="arrow">
+                                        <button class="modal-body__prev">
+                                            <span class="modal-body__prev-icon">
+                                                <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M23.75 13.75H8.925L13.4625 8.29998C13.6747 8.04471 13.7768 7.71561 13.7463 7.38507C13.7158 7.05454 13.5553 6.74965 13.3 6.53748C13.0447 6.32531 12.7156 6.22323 12.3851 6.2537C12.0546 6.28418 11.7497 6.44471 11.5375 6.69998L5.2875 14.2C5.24545 14.2596 5.20785 14.3223 5.175 14.3875C5.175 14.45 5.175 14.4875 5.0875 14.55C5.03084 14.6933 5.00118 14.8459 5 15C5.00118 15.1541 5.03084 15.3067 5.0875 15.45C5.0875 15.5125 5.0875 15.55 5.175 15.6125C5.20785 15.6777 5.24545 15.7403 5.2875 15.8L11.5375 23.3C11.655 23.4411 11.8022 23.5546 11.9686 23.6323C12.1349 23.7101 12.3164 23.7503 12.5 23.75C12.7921 23.7505 13.0751 23.6488 13.3 23.4625C13.4266 23.3575 13.5312 23.2287 13.6079 23.0832C13.6846 22.9378 13.7318 22.7787 13.7469 22.6149C13.762 22.4512 13.7447 22.2861 13.6959 22.1291C13.6471 21.9721 13.5678 21.8263 13.4625 21.7L8.925 16.25H23.75C24.0815 16.25 24.3995 16.1183 24.6339 15.8839C24.8683 15.6494 25 15.3315 25 15C25 14.6685 24.8683 14.3505 24.6339 14.1161C24.3995 13.8817 24.0815 13.75 23.75 13.75Z" fill="inherit"/>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                        <button class="modal-body__next">
+                                            <span class="modal-body__next-icon">
+                                                <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6.25 13.75H21.075L16.5375 8.29998C16.3253 8.04471 16.2232 7.71561 16.2537 7.38507C16.2842 7.05454 16.4447 6.74965 16.7 6.53748C16.9553 6.32531 17.2844 6.22323 17.6149 6.2537C17.9454 6.28418 18.2503 6.44471 18.4625 6.69998L24.7125 14.2C24.7545 14.2596 24.7922 14.3223 24.825 14.3875C24.825 14.45 24.825 14.4875 24.9125 14.55C24.9692 14.6933 24.9988 14.8459 25 15C24.9988 15.1541 24.9692 15.3067 24.9125 15.45C24.9125 15.5125 24.9125 15.55 24.825 15.6125C24.7922 15.6777 24.7545 15.7403 24.7125 15.8L18.4625 23.3C18.345 23.4411 18.1978 23.5546 18.0314 23.6323C17.8651 23.7101 17.6836 23.7503 17.5 23.75C17.2079 23.7505 16.9249 23.6488 16.7 23.4625C16.5734 23.3575 16.4688 23.2287 16.3921 23.0832C16.3154 22.9378 16.2682 22.7787 16.2531 22.6149C16.238 22.4512 16.2553 22.2861 16.3041 22.1291C16.3529 21.9721 16.4322 21.8263 16.5375 21.7L21.075 16.25H6.25C5.91848 16.25 5.60054 16.1183 5.36612 15.8839C5.13169 15.6494 5 15.3315 5 15C5 14.6685 5.13169 14.3505 5.36612 14.1161C5.60054 13.8817 5.91848 13.75 6.25 13.75Z" fill="inherit"/>
+                                                </svg>
+                                            </span>
+                                        </button>
                                     </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
         </section>
     </main>
