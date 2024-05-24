@@ -32,7 +32,8 @@
         margin: 0;
         color: $white-color;
         font-size: 23.961px;
-        @extend %family-roboto-style;
+        font-family: "Roboto";
+        font-style: normal;
         font-weight: 900;
         line-height: 90.5%;
         letter-spacing: 0.315px;
@@ -41,7 +42,8 @@
     &__text-explore {
         color: $dark-pink-header;
         font-size: 23.961px;
-        @extend %family-roboto-style;
+        font-family: "Roboto";
+        font-style: normal;
         font-weight: 900;
         line-height: 90.5%;
         letter-spacing: 0.315px;
@@ -67,7 +69,8 @@
         color: $white-color;
         font-feature-settings: 'clig' off, 'liga' off;
         font-size: 18px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0.5px;
@@ -86,7 +89,8 @@
         color: $white-color;
         font-feature-settings: 'clig' off, 'liga' off;
         font-size: 18px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0.5px;
@@ -125,7 +129,8 @@
         top: 0;
         font-size: 14px;
         background: $white-color;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 400;
         color: $white-color;
         padding: 5px 8px;

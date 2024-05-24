@@ -18,7 +18,8 @@
         color: $white-color;
         text-align: center;
         font-size: 42px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: 50px;
         padding: 0 0 67px 0;
@@ -58,7 +59,8 @@
     &__subtitle {
         color:$white-color;
         font-size: 18px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: 150%;
         padding: 0 0 15px 0;
@@ -68,7 +70,8 @@
     &__text {
         color: $white-color;
         font-size: 17px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 400;
         line-height: 28px;
         letter-spacing: 0.5px;

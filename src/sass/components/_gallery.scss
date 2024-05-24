@@ -58,7 +58,8 @@
     &__title {
         color: $Blue-Background;
         font-size: 60px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: 150%;
         text-align: center;
@@ -68,7 +69,8 @@
         text-align: center;
         color:$Paragraph-Dark;
         font-size: 18px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 400;
         line-height: 28px;
         letter-spacing: 0.18px;

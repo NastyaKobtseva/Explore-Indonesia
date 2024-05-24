@@ -16,7 +16,8 @@
         &-title {
             color: $Blue-Background;
             font-size: 60px;
-            @extend %family-dm-style;
+            font-family: "DM Sans";
+            font-style: normal;
             font-weight: 700;
             line-height: 150%;
             text-align: start;
@@ -67,7 +68,8 @@
     &__circle {
         color: $white-color;
         text-align: center;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-size: 26.409px;
         font-weight: 500;
         line-height: 38.146px; 
@@ -82,14 +84,16 @@
     align-items: start;
     &-title {
         color: $Blue-Background;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-size: 26.409px;
         font-weight: 700;
         line-height: 41.081px;
     }
     &-text {
         color: $Light-Text;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-size: 23.475px;
         font-weight: 400;
         line-height: 38.146px;
@@ -99,7 +103,8 @@
         color: $white-color;
         text-align: center;
         font-size: 18px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: 150%;
         margin: 16px 0 0 0;
@@ -169,14 +174,16 @@
     gap: 15px;
     &__title {
         color: $Blue-Background;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-size: 26.409px;
         font-weight: 700;
         line-height: 41.081px;
     }
     &__text {
         color: $Light-Text;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-size: 23.475px;
         font-weight: 400;
         line-height: 38.146px;
@@ -344,6 +351,7 @@
         }
         &-text {
             padding: 0 0 5px 0;
+            width: 280px;
         }
     }
     .hotel__video {
@@ -355,6 +363,9 @@
     }
     .flights__title {
         display: none;
+    }
+    .flights__text {
+        width: 280px;
     }
 }
 
