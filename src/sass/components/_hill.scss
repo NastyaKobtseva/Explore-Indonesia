@@ -36,8 +36,7 @@
     &__content-title {
         color: $black-color;
         font-size: 42px;
-        font-family: "DM Sans";
-        font-style: normal;
+        @extend %family-dm-style;
         font-weight: 700;
         line-height: 50px;
         padding: 0 0 32px 0;
@@ -53,8 +52,7 @@
         color: $Paragraph-Dark;
         text-align: center;
         font-size: 18px;
-        font-family: "DM Sans";
-        font-style: normal;
+        @extend %family-dm-style;
         font-weight: 400;
         line-height: 28px;
         letter-spacing: 0.5px;
@@ -74,8 +72,7 @@
         background: $dark-pink-header;
         color: $white-color;
         font-size: 18px;
-        font-family: "DM Sans";
-        font-style: normal;
+        @extend %family-dm-style;
         font-weight: 700;
         line-height: 150%;
         border: none;

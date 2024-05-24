@@ -25,6 +25,16 @@ a {
   margin: 0 auto;
 }
 
+.wrapper .tooltip, .company__copyright, .menu__link, .star__rating, .simply__info-text, .simply__info-subtitle, .customer__text, .modal-title, .flights__text, .flights__title, .hotel__one-button, .hotel__one-text, .hotel__one-title, .points__circle, .getting__content-title, .eget__text, .eget__title, .imagine__text, .imagine__subtitle, .life__title, .hill__content-button, .hill__content-text, .hill__content-title, .libero__text, .libero__subtitle, .numbers__text, .numbers__title, .secrets__content-title, .magna__button, .magna__text, .magna__title, .fusce__button, .fusce__text, .fusce__title, .gradient-card-info__text, .gradient-card-info__texts-title, .indonesia__info-text, .explore-group__info-button, .explore-group__content-title, .navigation__link {
+  font-family: "DM Sans";
+  font-style: normal;
+}
+
+.logos__text-explore, .logos__text, .gradient-card-info__title, .explore-group__title {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 .header {
   margin: 0;
   background: linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url("../images/header/bg-header.png");
@@ -76,8 +86,6 @@ a {
 .navigation__link {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
@@ -219,8 +227,6 @@ a {
   flex-shrink: 0;
   color: #FFF;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
@@ -233,8 +239,6 @@ a {
 .explore-group__title {
   width: 627.327px;
   color: #FFF;
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 120px;
   font-weight: 900;
   line-height: 130px;
@@ -253,8 +257,6 @@ a {
   background-color: #DD2242;
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 20px;
   font-weight: 700;
   line-height: 150%;
@@ -303,8 +305,6 @@ a {
   transform: rotate(-90deg);
   color: #FFF;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
@@ -354,8 +354,6 @@ a {
 }
 .gradient-card-info__title {
   color: #DD2242;
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 16px;
   font-weight: 900;
   line-height: normal;
@@ -370,8 +368,6 @@ a {
 }
 .gradient-card-info__texts-title {
   color: #FFF;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 26.409px;
   font-weight: 700;
   line-height: 41.081px;
@@ -379,8 +375,6 @@ a {
 .gradient-card-info__text {
   color: #939393;
   font-feature-settings: "clig" off, "liga" off;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -839,8 +833,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   margin: 0;
@@ -849,8 +841,6 @@ a {
 .fusce__text {
   color: #E0E0E0;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -861,8 +851,6 @@ a {
 .fusce__button {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   border-radius: 32px;
@@ -980,8 +968,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   margin: 0;
@@ -990,8 +976,6 @@ a {
 .magna__text {
   color: #E0E0E0;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -1002,8 +986,6 @@ a {
 .magna__button {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   border-radius: 32px;
@@ -1104,8 +1086,6 @@ a {
   color: #010A20;
   text-align: center;
   font-size: 50px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   padding: 127px 0 44px 0;
@@ -1255,8 +1235,6 @@ a {
 .numbers__title {
   color: #FFF;
   font-size: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   margin: 0;
@@ -1265,8 +1243,6 @@ a {
 .numbers__text {
   color: #e0e0e0;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1290,8 +1266,6 @@ a {
   color: #DD2242;
   text-align: center;
   font-size: 42.137px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 49.16px;
   letter-spacing: 0.386px;
@@ -1301,8 +1275,6 @@ a {
   color: #e0e0e0;
   text-align: center;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1395,8 +1367,6 @@ a {
 .hill__content-title {
   color: #000;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   padding: 0 0 32px 0;
@@ -1412,8 +1382,6 @@ a {
   color: #6F7787;
   text-align: center;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1433,8 +1401,6 @@ a {
   background: #DD2242;
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   border: none;
@@ -1533,8 +1499,6 @@ a {
   color: #FFF;
   text-align: center;
   font-size: 42px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 50px;
   padding: 0 0 67px 0;
@@ -1576,8 +1540,6 @@ a {
 .imagine__subtitle {
   color: #FFF;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   padding: 0 0 15px 0;
@@ -1587,8 +1549,6 @@ a {
 .imagine__text {
   color: #FFF;
   font-size: 17px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -1750,8 +1710,6 @@ a {
 .eget__title {
   color: #010A20;
   font-size: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   text-align: center;
@@ -1761,8 +1719,6 @@ a {
   text-align: center;
   color: #6F7787;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -1905,8 +1861,6 @@ a {
 .getting__content-title {
   color: #010A20;
   font-size: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   text-align: start;
@@ -1956,8 +1910,6 @@ a {
 .points__circle {
   color: #FFF;
   text-align: center;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 26.409px;
   font-weight: 500;
   line-height: 38.146px;
@@ -1972,16 +1924,12 @@ a {
 }
 .hotel__one-title {
   color: #010A20;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 26.409px;
   font-weight: 700;
   line-height: 41.081px;
 }
 .hotel__one-text {
   color: rgba(21, 20, 57, 0.4);
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 23.475px;
   font-weight: 400;
   line-height: 38.146px;
@@ -1991,8 +1939,6 @@ a {
   color: #FFF;
   text-align: center;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
   margin: 16px 0 0 0;
@@ -2062,16 +2008,12 @@ a {
 }
 .flights__title {
   color: #010A20;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 26.409px;
   font-weight: 700;
   line-height: 41.081px;
 }
 .flights__text {
   color: rgba(21, 20, 57, 0.4);
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 23.475px;
   font-weight: 400;
   line-height: 38.146px;
@@ -2288,8 +2230,6 @@ a {
 
 .modal-title {
   color: #010A20;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 150%;
 }
@@ -2320,8 +2260,6 @@ a {
   margin: 0;
   color: #757575;
   font-size: 14px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.18px;
@@ -2335,8 +2273,6 @@ a {
 .simply__info-subtitle {
   margin: 0;
   color: #000;
-  font-family: "DM Sans";
-  font-style: normal;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -2345,8 +2281,6 @@ a {
   margin: 0;
   color: #292929;
   font-size: 13px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 1.18px;
@@ -2361,8 +2295,6 @@ a {
   margin: 0;
   color: #000;
   font-size: 17px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   line-height: 50px;
 }
@@ -2372,7 +2304,6 @@ a {
   display: flex;
   justify-content: end;
 }
-
 .footer {
   background: #010A20;
   position: relative;
@@ -2409,8 +2340,6 @@ a {
   margin: 0;
   color: #FFF;
   font-size: 23.961px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   line-height: 90.5%;
   letter-spacing: 0.315px;
@@ -2419,8 +2348,6 @@ a {
 .logos__text-explore {
   color: #DD2242;
   font-size: 23.961px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   line-height: 90.5%;
   letter-spacing: 0.315px;
@@ -2444,8 +2371,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -2466,8 +2391,6 @@ a {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 18px;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -2511,8 +2434,6 @@ a {
   top: 0;
   font-size: 14px;
   background: #FFF;
-  font-family: "DM Sans";
-  font-style: normal;
   font-weight: 400;
   color: #FFF;
   padding: 5px 8px;
