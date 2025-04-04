@@ -48,7 +48,8 @@
     &__link {
         color: $white-color;
         font-size: 18px;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
@@ -178,7 +179,8 @@
             flex-shrink: 0;
             color: $white-color;
             text-shadow: 0px 0px 4px $text-shadow-header;
-            @extend %family-dm-style;
+            font-family: "DM Sans";
+            font-style: normal;
             font-size: 16px;
             font-weight: 700;
             line-height: normal;
@@ -191,7 +193,8 @@
         &__title {
             width: 627.327px; 
             color: $white-color;
-            @extend %family-roboto-style;
+            font-family: "Roboto";
+            font-style: normal;
             font-size: 120px;
             font-weight: 900;
             line-height: 130px;
@@ -208,7 +211,8 @@
             background-color: $dark-pink-header;
             color: $gray-color-header;
             text-align: center;
-            @extend %family-dm-style;
+            font-family: "DM Sans";
+            font-style: normal;
             font-size: 20px;
             font-weight: 700;
             line-height: 150%;
@@ -253,7 +257,8 @@
             transform: rotate(-90deg);
             color: $white-color;
             text-shadow: 0px 0px 4px $text-shadow-header;
-            @extend %family-dm-style;
+            font-family: "DM Sans";
+            font-style: normal;
             font-size: 16px;
             font-weight: 700;
             line-height: normal;
@@ -298,7 +303,8 @@
     @include flex-j-content-align($display:flex, $j-content: center, $align:start);
     &__title {
         color: $dark-pink-header;
-        @extend %family-roboto-style;
+        font-family: "Roboto";
+        font-style: normal;
         font-size: 16px;
         font-weight: 900;
         line-height: normal;
@@ -310,7 +316,8 @@
         gap: 5px;
         &-title {
             color: $white-color;
-            @extend %family-dm-style;
+            font-family: "DM Sans";
+            font-style: normal;
             font-size: 26.409px;
             font-weight: 700;
             line-height: 41.081px; 
@@ -319,7 +326,8 @@
     &__text {
         color: $text-color-gray-header;
         font-feature-settings: 'clig' off, 'liga' off;
-        @extend %family-dm-style;
+        font-family: "DM Sans";
+        font-style: normal;
         font-size: 18px;
         font-weight: 400;
         line-height: 28px;
